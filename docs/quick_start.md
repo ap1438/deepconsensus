@@ -52,7 +52,7 @@ See the [runtime metrics page](runtime_metrics.md) for an overview of runtimes
 using different GCP compute VM configurations.
 
 ### GPU Setup
-For Ubunu  22.04 download and use the run file the Ubuntu 20.04.
+For Ubunu  22.04.
 Check gcc version, it should be gcc-10, if not then remove the current version installed and install gcc-10, and link to existing directory in bin:
 ```bash
 gcc --version
@@ -71,12 +71,13 @@ sudo chmod a+r /usr/local/cuda-11/lib64/libcudnn*
 sudo ldconfig
 ```
 
-Downloading the run file the Ubuntu 20.04.You can perform the download and install via the following two commands:
+Downloading the run file for CUDA Toolkit 11.3.You can perform the download and install via the following two commands:
 ```bash
 # For GPU only:
 wget https://developer.download.nvidia.com/compute/cuda/11.3.1/local_installers/cuda_11.3.1_465.19.01_linux.run
 sudo sh cuda_11.3.1_465.19.01_linux.run
 ```
+For Older Ubuntu versions.
 
 If you are planning on running DeepConsensus with an NVIDIA GPU, you can use the
 command below to install Docker and the GPU libraries required:
