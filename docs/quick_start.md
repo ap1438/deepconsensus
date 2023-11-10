@@ -72,7 +72,7 @@ sudo chmod a+r /usr/local/cuda-11/lib64/libcudnn*
 sudo ldconfig
 ```
 
-Downloading the run file for CUDA Toolkit 11.3.You can perform the download and install via the following two commands:
+Downloading the run file for CUDA Toolkit 11.3.You can perform the download and install via the following commands:
 ```bash
 # For GPU only:
 wget https://developer.download.nvidia.com/compute/cuda/11.3.1/local_installers/cuda_11.3.1_465.19.01_linux.run
