@@ -53,7 +53,7 @@ using different GCP compute VM configurations.
 
 ### GPU Setup
 For Ubunu  22.04 download and use the run file the Ubuntu 20.04.
-Check gcc version, it shoould be gcc-10,if not then remove the current version installed and install gcc-10, and link to existing directory in bin:
+Check gcc version, it should be gcc-10, if not then remove the current version installed and install gcc-10, and link to existing directory in bin:
 ```bash
 gcc --version
 sudo apt-get --purge remove gcc-**
