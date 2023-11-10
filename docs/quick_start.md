@@ -77,6 +77,8 @@ Downloading the run file for CUDA Toolkit 11.3.You can perform the download and 
 # For GPU only:
 wget https://developer.download.nvidia.com/compute/cuda/11.3.1/local_installers/cuda_11.3.1_465.19.01_linux.run
 sudo sh cuda_11.3.1_465.19.01_linux.run
+curl https://raw.githubusercontent.com/google/deepvariant/r1.4/scripts/install_nvidia_docker.sh -o install_nvidia_docker.sh
+bash install_nvidia_docker.sh
 ```
 For Older Ubuntu versions.
 
