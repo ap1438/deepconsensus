@@ -52,7 +52,8 @@ See the [runtime metrics page](runtime_metrics.md) for an overview of runtimes
 using different GCP compute VM configurations.
 
 ### GPU Setup
-For Ubunu  22.04.
+For Ubunu  22.04. If you are planning on running DeepConsensus with an NVIDIA GPU, you can use the command below to install Docker and the GPU libraries required:
+
 Check gcc version, it should be gcc-10, if not then remove the current version installed and install gcc-10, and link to existing directory in bin:
 ```bash
 gcc --version
